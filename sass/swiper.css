@@ -176,14 +176,14 @@
 }
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
-  background-image: url("../images/New/Page-2-Btn-Previous.png");
+  background-image: url("../images/Page-2-Btn-Previous.png");
   background-size: contain;
   left:calc(55px * var(--ratio));
   right: auto;
 }
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
-  background-image: url("../images/New/Page-2-Btn-Next.png");
+  background-image: url("../images/Page-2-Btn-Next.png");
   background-size: contain;
   right:0px;
   left: auto;
