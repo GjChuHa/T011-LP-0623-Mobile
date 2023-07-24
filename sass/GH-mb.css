@@ -464,7 +464,7 @@ main {
 }
 
 .page4 {
-  background: url(../images/Page-4-BG.jpg) no-repeat top center;
+  background: url(../images/Page-4-BG-New.jpg) no-repeat top center;
   position: relative;
   overflow: hidden;
   height: calc(1156px * var(--ratio));
