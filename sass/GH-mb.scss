@@ -35,7 +35,7 @@ main {position: relative;}
 .download{background-image: url(../images/Header-BG.jpg);z-index: 1051;
   .container{display: flex;justify-content: space-between;align-items: center;
     .left{display: flex;align-items: center;
-      .icongame{width:calc(295px * var(--ratio));}
+      .icongame{width:calc(303px * var(--ratio));}
       .title-game{color: var(--whitecolor);
         h4{font-size:calc(160% * var(--ratio));}
       }
@@ -76,7 +76,7 @@ main {position: relative;}
   overflow: hidden;
   max-width: 768px;
   height: calc(var(--ratio) * 1485px);
-  background: url(../images/Page-1-BG.jpg) no-repeat top center;
+  background: url(../images/Page-1-BG-New.jpg) no-repeat top center;
   background-size: cover;
   margin:calc(113px * var(--ratio)) auto 0;
 
