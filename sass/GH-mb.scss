@@ -32,10 +32,10 @@ main {position: relative;}
 #layout{height:auto;transform-origin: top left;overflow: hidden;}
 
 /*----*/
-.download{background-image: url(../images/Header-BG.jpg);z-index: 1051;
+.download{background-image: url(../images/New/Header-BG.jpg);z-index: 1051;
   .container{display: flex;justify-content: space-between;align-items: center;
     .left{display: flex;align-items: center;
-      .icongame{width:calc(303px * var(--ratio));}
+      .icongame{width:calc(295px * var(--ratio));}
       .title-game{color: var(--whitecolor);
         h4{font-size:calc(160% * var(--ratio));}
       }
@@ -48,7 +48,7 @@ main {position: relative;}
         img{width: calc(47px * var(--ratio));}
       }
       .btn-taigame{
-        position: relative;top: 8px;
+        position: relative;top: calc(10px * var(--ratio));
       }
     }
   }
@@ -76,7 +76,7 @@ main {position: relative;}
   overflow: hidden;
   max-width: 768px;
   height: calc(var(--ratio) * 1485px);
-  background: url(../images/Page-1-BG-New.jpg) no-repeat top center;
+  background: url(../images/New/Page-1-BG.jpg) no-repeat top center;
   background-size: cover;
   margin:calc(113px * var(--ratio)) auto 0;
 
@@ -106,7 +106,7 @@ main {position: relative;}
   overflow: hidden;
   max-width: 768px;
   height: calc(1002px * var(--ratio));
-  background: url(../images/Page-2-BG.jpg) no-repeat top center;
+  background: url(../images/New/Page-2-BG.jpg) no-repeat top center;
   background-size: cover;
   margin: 0 auto;
   .my-3
@@ -160,7 +160,7 @@ main {position: relative;}
   overflow: hidden;
   max-width:768px;
   height:calc(1517px * var(--ratio));
-  background: url(../images/Page-3-BG.jpg) no-repeat top center;
+  background: url(../images/New/Page-3-BG.jpg) no-repeat top center;
   background-size: cover;
   margin: 0 auto;
 
@@ -181,7 +181,7 @@ main {position: relative;}
       z-index: 6;
       background-size: contain;
       margin: 0;
-      width:calc(415px* var(--ratio));
+      width:calc(407px* var(--ratio));
       height: calc(199px* var(--ratio));
       position: relative;
       top: calc(130px * var(--ratio));
@@ -255,9 +255,9 @@ main {position: relative;}
           {
             width: 100%;
             z-index: 6;
-            height: 160px;
+            height: calc(270px * var(--ratio));
             position: absolute;
-            top: calc(50px * var(--ratio));
+            top: calc(-20px * var(--ratio));
             left: 0;
             display: block;
           }
@@ -269,7 +269,7 @@ main {position: relative;}
 
 .page4
 {
-  background: url(../images/Page-4-BG-New.jpg) no-repeat top center;
+  background: url(../images/New/Page-4-BG.jpg) no-repeat top center;
   position: relative;
   overflow: hidden;
   // width: calc(768px * var(--ratio));
@@ -342,7 +342,7 @@ main {position: relative;}
 
 .page5
 {
-  background: url(../images/Page-5-Bg.jpg) no-repeat top center;
+  background: url(../images/New/Page-5-Bg.jpg) no-repeat top center;
   position: relative;
   overflow: hidden;
   // width: 100%;
@@ -415,7 +415,7 @@ main {position: relative;}
 
     .modal-content
     {
-    background: url(../images/Page-4-Popup-DangKySom.png) no-repeat top center;
+    background: url(../images/New/Page-4-Popup-DangKySom.png) no-repeat top center;
     background-size: contain;
     width: calc(728px * var(--ratio));
     height: calc(689px * var(--ratio));
@@ -438,7 +438,7 @@ main {position: relative;}
 
       .close
       {
-        background: url(../images/Page-4-btn-Close.png) no-repeat top center;
+        background: url(../images/New/Page-4-btn-Close.png) no-repeat top center;
         background-size: contain;
         width: calc(56px * var(--ratio));
         height: calc(53px * var(--ratio));
@@ -471,10 +471,28 @@ main {position: relative;}
         input
         {
           padding: 0;
+          margin-top: calc(13px * var(--ratio));
           height:100%;
           width: 100%;
-          font-size: calc(30px * var(--ratio));
+          font-size: calc(37px * var(--ratio));
+          border: none;
+          background: transparent;
         }
+
+        
+      }
+
+      .row-name
+      {
+        padding-left: calc(15px * var(--ratio));
+      }
+      .row-phone
+      {
+        margin-left: calc(-70px * var(--ratio));
+      }
+      .row-email
+      {
+        margin-left: calc(-52px * var(--ratio));
       }
     }
   } 
@@ -490,14 +508,14 @@ main {position: relative;}
 
       .modal-content
     {
-      background: url(../images/Page-4-Popup-TheLe.png) no-repeat top center;
+      background: url(../images/New/Page-4-Popup-TheLe.png) no-repeat top center;
       background-size: contain;
       width: calc(728px * var(--ratio));
       height: calc(689px * var(--ratio));
 
       .close
       {
-        background: url(../images/Page-4-btn-Close.png) no-repeat top center;
+        background: url(../images/New/Page-4-btn-Close.png) no-repeat top center;
         background-size: contain;
         width: calc(56px * var(--ratio));
         height: calc(53px * var(--ratio));
@@ -513,7 +531,7 @@ main {position: relative;}
 .footer
 {
   height: calc(303px * var(--ratio));
-  background: url(../images/Footer-BG.jpg) no-repeat top center;
+  background: url(../images/New/Footer-BG.jpg) no-repeat top center;
   background-size: cover;
   max-width: 768px;
   margin:0 auto;
